@@ -37,7 +37,7 @@ function ProductDetails() {
        <button id='btn-2' style={{backgroundColor:"white"}} onClick={(()=>{
         setShow(!show)
        })}>{show?'Hide Nutrients':"Show Nutrients"}</button>
-       <div id='display' style={{border:"2px solid teal",height:"200px",width:"210px",margin:"auto",marginTop:"20px",textAlign:"left",paddingLeft:"50px"}} >
+       <div id='display' style={{border:"2px solid teal",height:"200px",width:"190px",margin:"auto",marginTop:"20px",textAlign:"left",paddingLeft:"80px"}} >
          <p>carbohydrates:{data.nutritions?.carbohydrates}</p>
          <p>proteins:{data.nutritions?.protein}</p>
          <p>calorie:{data.nutritions?.calories}</p>
