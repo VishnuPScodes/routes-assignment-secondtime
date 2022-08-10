@@ -45,3 +45,7 @@ button {
 #btn-2:hover{
   cursor: pointer;
 }
+#contact-boxes>div:hover{
+  cursor: pointer;
+   border: 2px solid blue;
+}

@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Contact from '../pages/Contact'
 import Faq from '../pages/Faq'
 import Fruites from '../pages/Fruites'
 import Home from '../pages/Home'
@@ -17,6 +18,7 @@ function Alllroutes() {
             <Route path='/Faq'  element={<Faq/>} />
             <Route path='/Veg'  element={<Vegs/>} />
             <Route path='/'  element={<Home/>} />
+            <Route path='/Contacts'  element={<Contact/>} />
             <Route path='/Productdetails/:id'  element={<ProductDetails
             />} />
 
