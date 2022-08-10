@@ -5,7 +5,7 @@ import React from 'react'
 
 function Faq() {
   return (
-    <div>Faq</div>
+    <h1>Frequently asked questions 👇</h1>
   )
 }
 
