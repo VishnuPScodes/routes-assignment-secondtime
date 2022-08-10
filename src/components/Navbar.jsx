@@ -7,8 +7,12 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <div 
-     style={{border:"5px solid blue",height:"80px",width:"100%",color:"red",fontWeight:"700",display:"flex"}}>
+     style={{border:"5px solid blue",height:"80px",width:"99%",color:"red",fontWeight:"700",display:"flex"}}>
+        
 
+        <div style={{marginLeft:"50px"}}>
+            <Link  to={'/'} >HOME</Link>
+        </div>
         <div style={{marginLeft:"50px"}}>
             <Link  to={'/Fruites'} >FRUITES</Link>
         </div>

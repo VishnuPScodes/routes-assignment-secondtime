@@ -7,10 +7,12 @@ import { useParams } from 'react-router-dom'
 function ProductDetails() {
     const [show,setShow]=useState(false)
     const [data,setData]=useState([]);
+    const [loading,setLoading]=useState(true);
     const {id}=useParams();
     useEffect(()=>{
         axios.get(`https://www.fruityvice.com/api/fruit/${id}`).then((e)=>{
              setData(e.data)
+             setLoading(false);
         })
         if(show){
             let ds=document.getElementById('display');
@@ -24,6 +26,7 @@ function ProductDetails() {
     console.log(data.nutritions,'data')
   
   return (
+  
     <div>
         <h1 style={{color:"green"}} >
             {data.name}
@@ -31,7 +34,7 @@ function ProductDetails() {
         <p>family:{data.family}</p>
         <p>genus:{data.genus}</p>
         <p>order:{data.order}</p>
-       <button style={{backgroundColor:"white"}} onClick={(()=>{
+       <button id='btn-2' style={{backgroundColor:"white"}} onClick={(()=>{
         setShow(!show)
        })}>{show?'Hide Nutrients':"Show Nutrients"}</button>
        <div id='display' style={{border:"2px solid teal",height:"200px",width:"210px",margin:"auto",marginTop:"20px",textAlign:"left",paddingLeft:"50px"}} >
