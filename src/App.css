@@ -61,3 +61,29 @@ button {
   font-family: 400;
   display: none;
 }
+#wehave{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  display: none;
+
+}
+#fruites{
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  display: none;
+}
+#veg{
+  color: black;
+  font-size: 80px;
+  text-align: center;
+  display: none;
+}  
+#wehave2{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  display: none;
+
+}
