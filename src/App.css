@@ -49,3 +49,15 @@ button {
   cursor: pointer;
    border: 2px solid blue;
 }
+#s-q{
+  border: 1px;
+  width: 80%;
+  margin: auto;
+}
+#hide{
+  border: 2px solid grey;
+  background-color: rgb(255, 253, 253);
+  color: black;
+  font-family: 400;
+  display: none;
+}
