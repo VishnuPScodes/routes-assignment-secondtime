@@ -18,8 +18,8 @@ function Fruites() {
     const navigate=useNavigate();
     console.log(data,'api data');
   return (
-    <div style={{display:"flex",flexWrap:"wrap"}}>
-        {loading==true?"Loading...":  <> 
+    <div style={{display:"flex",flexWrap:"wrap"}}> 
+        {loading==true?<header   >Loading...</header>: <> 
        {data.map((e)=>{
         return <div onClick={(()=>{
             navigate(`/Productdetails/${e.name}`)
