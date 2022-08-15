@@ -15,7 +15,7 @@ function SingleQuestion({data}) {
         hide.style.display='none'
        }
     },[show])
-  return (
+  return <> 
     <div id='s-q' >
         <div  style={{display:"flex" }}>
         <h4>{data.q}</h4> <button style={{border:"1px solid black",backgroundColor:'white',height:"50px",width:"100px"}} onClick={(()=>{
@@ -27,7 +27,7 @@ function SingleQuestion({data}) {
            </div>
        
     </div>
-  )
+    </>
 }
 
 export default SingleQuestion
