@@ -87,3 +87,10 @@ button {
   display: none;
 
 }
+#movieBar{
+  border: 5px solid blue;
+  width: 99%;
+  margin: auto;
+  height: 550px;
+  border-radius: 20px;
+}
