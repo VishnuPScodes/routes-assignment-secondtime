@@ -93,4 +93,11 @@ button {
   margin: auto;
   height: 550px;
   border-radius: 20px;
+  display: none;
+}
+#movieLover{
+  display: none;
+}
+#smiley{
+  display: none;
 }
