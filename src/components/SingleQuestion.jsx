@@ -1,17 +1,16 @@
 
-
-
 import React, { useEffect, useState } from 'react'
+
 
 function SingleQuestion({data}) {
     const [show,setShow]=useState(false);
     useEffect(()=>{
        if(show){
-        let hide=document.getElementById(data.id);
+        let hide=document.getElementById('an');
         hide.style.display='block'
        }
        else{
-        let hide=document.getElementById(data.id);
+        let hide=document.getElementById('an');
         hide.style.display='none'
        }
     },[show])
@@ -22,7 +21,7 @@ function SingleQuestion({data}) {
             setShow(!show)
         })} >{show==true?"Hide Answer":"Show Answer"}</button>
         </div>
-        <div style={{display:"none"}} id={data.id} >
+        <div style={{display:"none"}} id={'an'} >
             {data.a}
            </div>
        

@@ -21,8 +21,8 @@ id:1
   ]
   return <>
     <h1>Frequently asked questions 👇</h1>
-    {data.map((e)=>{
-      return <SingleQuestion data={e} />
+    {data.map((e,i)=>{
+      return <SingleQuestion  data={e} />
     })}
  
     </>

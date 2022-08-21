@@ -13,6 +13,10 @@ function Navbar() {
         <div style={{marginLeft:"50px"}}>
             <Link  to={'/'} >HOME</Link>
         </div>
+
+        <div style={{marginLeft:"50px"}}>
+            <Link  to={'/Seafood'} >Seafood</Link>
+        </div>
         <div style={{marginLeft:"50px"}}>
             <Link  to={'/Fruites'} >FRUITES</Link>
         </div>
