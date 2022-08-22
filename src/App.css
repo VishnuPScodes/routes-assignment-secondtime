@@ -117,3 +117,16 @@ button {
   margin: auto;
   
 }
+#link:hover{
+  text-decoration: underline;
+  color: red;
+  font-family:cursive
+}
+#nav-head{
+  background-color: green;
+  opacity: 1;
+  position: fixed;
+}
+#nav-head::-webkit-search-cancel-button{
+  color: yellow;
+}
