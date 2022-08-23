@@ -115,6 +115,8 @@ button {
   width: 60%;
   height: 600px;
   margin: auto;
+  border-radius: 50px;
+  margin-top: 50px;
   
 }
 #link:hover{
@@ -123,10 +125,18 @@ button {
   font-family:cursive
 }
 #nav-head{
-  background-color: green;
+  background-color: white;
   opacity: 1;
-  position: fixed;
+
 }
 #nav-head::-webkit-search-cancel-button{
   color: yellow;
+}
+#text-para{
+  font-size: 25px;
+  text-align: left;
+  font-family:cursive
+}
+#image-d{
+  border-radius: 50px;
 }
