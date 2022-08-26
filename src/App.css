@@ -140,3 +140,9 @@ button {
 #image-d{
   border-radius: 50px;
 }
+.answer{
+  background-color: red;
+}
+.answer-2{
+  background-color: green;
+}
